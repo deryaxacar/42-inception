@@ -11,7 +11,7 @@ done
 
 # Veritabanı ve kullanıcı işlemleri
 mariadb -e "CREATE DATABASE IF NOT EXISTS $MYSQL_DATABASE_NAME;"
-mariadb -e "CREATE USER IF NOT EXISTS '$MYSQL_USER'@'%' IDENTIFIED BY '$MYSQL_PASSWORD';"echo "MariaDB service has started."
+mariadb -e "CREATE USER IF NOT EXISTS '$MYSQL_USER'@'%' IDENTIFIED BY '$MYSQL_PASSWORD';"
 mariadb -e "GRANT ALL PRIVILEGES ON $MYSQL_DATABASE_NAME.* TO '$MYSQL_USER'@'%';"
 mariadb -e "FLUSH PRIVILEGES;"
 mariadb -e "SHUTDOWN;"
