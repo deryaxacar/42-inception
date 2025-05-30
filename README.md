@@ -36,6 +36,8 @@ Inception, 42 Network’te verilen bir sistem yönetimi projesidir. Amaç, kendi
 
 Docker, uygulamaları ve bu uygulamaların bağımlılıklarını, işletim sisteminden bağımsız bir şekilde çalıştırılabilir hale getiren, açık kaynaklı bir containerization (kapsayıcılama) platformudur. Temel amacı, bir yazılımın geliştirildiği ortamda nasıl çalışıyorsa, aynı şekilde başka bir ortamda da sorunsuz çalışmasını sağlamaktır.
 
+---
+
 #### 🔧 Docker'ın Temel Bileşenleri
 
 - **Docker Engine**: Docker container’larını oluşturmak, yönetmek ve çalıştırmak için kullanılan çekirdek bileşendir.
