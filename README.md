@@ -11,7 +11,6 @@ Bu proje, Docker kullanarak mikroservis mimarisine uygun, izole ve güvenli bir 
 
 ## İçindekiler 📚
 
-- [Proje Açıklaması](#proje-açıklaması)
 - [Docker Nedir?](#docker-nedir)
 - [Image Nedir?](#image-nedir)
 - [Volume Nedir?](#volume-nedir)
@@ -19,16 +18,6 @@ Bu proje, Docker kullanarak mikroservis mimarisine uygun, izole ve güvenli bir 
 - [Kullanılan Servisler](#kullanılan-servisler)
 - [Kurulum ve Kullanım](#kurulum-ve-kullanım)
 - [Proje Yapısı](#proje-yapısı)
-
----
-
-## Proje Açıklaması
-
-Inception, 42 Network’te verilen bir sistem yönetimi projesidir. Amaç, kendi sanal sunucunuzu inşa edip çalıştırmak, bu sunucuda çeşitli servisleri barındırmak ve bu servisleri birbirinden izole bir şekilde Docker container’ları içerisinde çalıştırmaktır. Proje sayesinde:
-
-- Docker ve container mantığı öğrenilir,
-- Servislerin birbirleriyle nasıl haberleştirileceği anlaşılır,
-- Gerçek dünya sunucu yapılandırmalarına benzer bir yapı kurulur.
 
 ---
 
