@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>İnception</h1> <img src="#" alt="inception" width="65"></br></br>
+  <h1>İnception</h1> <img src="#" alt="inception" height="150" width="150""></br></br>
 </div>
 
 <p align="center">
