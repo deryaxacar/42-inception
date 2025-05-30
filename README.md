@@ -32,11 +32,17 @@ Inception, 42 Network’te verilen bir sistem yönetimi projesidir. Amaç, kendi
 
 ---
 
-## Docker Nedir?
+## 🐳 Docker Nedir?
 
-Docker, yazılım uygulamalarını ve bağımlılıklarını bir araya getirerek izole ortamlarda (container) çalıştırmaya yarayan açık kaynaklı bir platformdur. Geliştiricilerin uygulamaları “çalıştığı gibi” başka ortamlara taşımalarını kolaylaştırır.
+Docker, uygulamaları ve bu uygulamaların bağımlılıklarını, işletim sisteminden bağımsız bir şekilde çalıştırılabilir hale getiren, açık kaynaklı bir containerization (kapsayıcılama) platformudur. Temel amacı, bir yazılımın geliştirildiği ortamda nasıl çalışıyorsa, aynı şekilde başka bir ortamda da sorunsuz çalışmasını sağlamaktır.
 
-Container’lar, ana işletim sistemi üzerinde çalışır ancak birbirlerinden tamamen izole edilirler.
+#### 🔧 Docker'ın Temel Bileşenleri
+
+- **Docker Engine**: Docker container’larını oluşturmak, yönetmek ve çalıştırmak için kullanılan çekirdek bileşendir.
+- **Docker Image**: Bir uygulamanın çalışması için gerekli tüm kodları, bağımlılıkları ve konfigürasyonları barındıran şablondur.
+- **Docker Container**: Image’ların çalıştırılabilir hale gelmiş, izole edilmiş halidir.
+- **Dockerfile**: Image’ları otomatik olarak inşa etmek için kullanılan betik dosyasıdır.
+- **Docker Compose**: Birden fazla container’ı aynı anda yönetmeye yarayan araçtır (genellikle `docker-compose.yml` dosyası ile yapılandırılır).
 
 ---
 
