@@ -13,7 +13,7 @@ Bu proje, Docker kullanarak mikroservis mimarisine uygun, izole ve güvenli bir 
 
 - [Sanal Mimari Nedir?](#sanal-mimari-nedir)
 - [Konteyner Mimari Nedir?](#konteyner-mimari-nedir)
-  - [Kernel Nedir?](#kernel-nedir)
+- [Kernel Nedir?](#kernel-nedir)
 - [Docker Nedir?](#docker-nedir)
 - [Image Nedir?](#image-nedir)
 - [Volume Nedir?](#volume-nedir)
