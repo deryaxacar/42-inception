@@ -70,6 +70,8 @@ Sanal makina fiziksel bir makina gibi davranır.
 Konteynerlar Teknolojilerinde ise işletim sistemi kernelına eklenen featureler (özellikler) kullanılarak işlem izolasyonu sağlanmaktadır.
 Bu işlem izolasyonu sayesinde aynı işletim sistemi üzerinde birbirinden bağımsız konteynerler oluşturulabilmektedir.
 
+---
+
 ## Kernel Nedir?
 İşletim sisteminin "çekirdeğidir". Bilgisayarın donanımı ile yazılımı arasında köprü görevi görür. Yani:
 
@@ -81,14 +83,16 @@ Bu işlem izolasyonu sayesinde aynı işletim sistemi üzerinde birbirinden bağ
 
 gibi temel işleri kernel yapar.
 
+---
+![img](https://github.com/deryaxacar/42-inception/blob/main/img/kernel.png)
+
+---
+
 **örnek:**
 
 - Sen bir programda print("Merhaba") yazarsın,
 - Bu işlem işletim sistemine gider,
 - İşletim sistemi bu talebi kernel aracılığıyla ekrana iletir.
-
----
-![img](https://github.com/deryaxacar/42-inception/blob/main/img/kernel.png)
 
 ---
 
