@@ -73,7 +73,8 @@ Bu işlem izolasyonu sayesinde aynı işletim sistemi üzerinde birbirinden bağ
 ---
 
 ## Kernel Nedir?
-İşletim sisteminin "çekirdeğidir". Bilgisayarın donanımı ile yazılımı arasında köprü görevi görür. Yani:
+
+Kernel, şletim sisteminin "çekirdeğidir". Bilgisayarın donanımı ile yazılımı arasında köprü görevi görür. Yani:
 
 - Bellek yönetimi
 - Dosya sistemi
