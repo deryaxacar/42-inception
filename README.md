@@ -39,7 +39,7 @@ Hypervisor, fiziksel donanım ile sanal makineler arasında bir köprü görevi 
 
 ---
 
-![img](https://github.com/deryaxacar/42-inception/blob/main/img/sanal-mimari.PNG)
+![img](https://github.com/deryaxacar/42-inception/blob/main/img/sanal-mimari.png)
 
 ---
 
