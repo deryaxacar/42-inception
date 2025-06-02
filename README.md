@@ -13,6 +13,7 @@ Bu proje, Docker kullanarak mikroservis mimarisine uygun, izole ve güvenli bir 
 
 - [Sanal Mimari Nedir?](#sanal-mimari-nedir)
 - [Konteyner Mimari Nedir?](#konteyner-mimari-nedir)
+  - [Kernel Nedir?](#kernel-nedir)
 - [Docker Nedir?](#docker-nedir)
 - [Image Nedir?](#image-nedir)
 - [Volume Nedir?](#volume-nedir)
@@ -50,10 +51,44 @@ Sanal makina fiziksel bir makina gibi davranır.
 
 ## 📦 Konteyner Mimari (Container Architecture) Nedir?
 
+- Uygulamalar, aynı işletim sistemini paylaşan, ancak birbirinden izole çalışan konteynerler içinde çalışır.
+- İzolasyon, işletim sistemi çekirdeği (kernel) düzeyinde sağlanır (namespaces, cgroups).
+- Konteynerler hızlı başlar, hafiftir.
+
+**Özellikleri:**
+
+- Kaynak kullanımı azdır.
+- Başlatma süresi çok kısadır.
+- Uygulama geliştirme ve dağıtımı için idealdir.
 
 ---
 
 ![img](https://github.com/deryaxacar/42-inception/blob/main/img/konteyner-mimari.png)
+
+---
+
+Konteynerlar Teknolojilerinde ise işletim sistemi kernelına eklenen featureler (özellikler) kullanılarak işlem izolasyonu sağlanmaktadır.
+Bu işlem izolasyonu sayesinde aynı işletim sistemi üzerinde birbirinden bağımsız konteynerler oluşturulabilmektedir.
+
+## Kernel Nedir?
+İşletim sisteminin "çekirdeğidir". Bilgisayarın donanımı ile yazılımı arasında köprü görevi görür. Yani:
+
+- Bellek yönetimi
+- Dosya sistemi
+- Ağ erişimi
+- İşlem yönetimi
+- Donanımla doğrudan iletişim
+
+gibi temel işleri kernel yapar.
+
+**örnek:**
+
+- Sen bir programda print("Merhaba") yazarsın,
+- Bu işlem işletim sistemine gider,
+- İşletim sistemi bu talebi kernel aracılığıyla ekrana iletir.
+
+---
+![img](https://github.com/deryaxacar/42-inception/blob/main/img/kernel.png)
 
 ---
 
