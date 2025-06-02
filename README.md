@@ -53,7 +53,7 @@ Sanal makina fiziksel bir makina gibi davranır.
 
 ---
 
-![img](https://github.com/deryaxacar/42-inception/blob/main/img/konteyner-mimarisi.PNG)
+![img](https://github.com/deryaxacar/42-inception/blob/main/img/konteyner-mimari.png)
 
 ---
 
