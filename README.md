@@ -11,6 +11,8 @@ Bu proje, Docker kullanarak mikroservis mimarisine uygun, izole ve güvenli bir 
 
 ## İçindekiler 📚
 
+- [Sanal Mimari Nedir?](#sanal-mimari-nedir)
+- [Konteyner Mimari Nedir?](#konteyner-mimari-nedir)
 - [Docker Nedir?](#docker-nedir)
 - [Image Nedir?](#image-nedir)
 - [Volume Nedir?](#volume-nedir)
@@ -18,6 +20,20 @@ Bu proje, Docker kullanarak mikroservis mimarisine uygun, izole ve güvenli bir 
 - [Kullanılan Servisler](#kullanılan-servisler)
 - [Kurulum ve Kullanım](#kurulum-ve-kullanım)
 - [Proje Yapısı](#proje-yapısı)
+
+---
+
+## 🖥️ Sanal Mimari (Virtual Machine Architecture) Nedir?
+
+- Fiziksel donanım üzerinde çalışan bir hypervisor yardımıyla, birden fazla sanal makine (VM) oluşturulur.
+- Her sanal makine kendi işletim sistemi ile birlikte çalışır.
+- Donanım seviyesinde izolasyon sağlar.
+
+**Özellikleri:**
+
+- Ağırdır, daha fazla kaynak kullanır.
+- Daha güvenlidir.
+- Her VM'de ayrı işletim sistemi çalışabilir.
 
 ---
 
