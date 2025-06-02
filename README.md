@@ -126,10 +126,6 @@ Docker volume, container’lar ile host sistemi arasında veri paylaşımı sağ
 
 Nginx, açık kaynaklı, yüksek performanslı bir web sunucusudur. Web isteklerini karşılamak, statik dosyaları sunmak ve ters proxy (reverse proxy) olarak çalışmak gibi görevleri vardır. Projede gelen HTTP isteklerini karşılayıp diğer container’lara yönlendirmek için kullanılır.
 
----
-![img](https://github.com/deryaxacar/42-inception/blob/main/img/inceptionimg.PNG)
----
-
 ## Kullanılan Servisler
 
 Inception projesinde aşağıdaki servisler kurulup yapılandırılmıştır:
@@ -137,9 +133,10 @@ Inception projesinde aşağıdaki servisler kurulup yapılandırılmıştır:
 - **Nginx**: Reverse proxy olarak çalışır.
 - **WordPress**: İçerik yönetim sistemi.
 - **MariaDB**: MySQL uyumlu veritabanı sunucusu.
-- **PhpMyAdmin**: MariaDB’yi görsel arayüzle yönetmeye olanak tanır.
-- **Redis**: WordPress önbellekleme için kullanılır.
-- **FTP (vsftpd)**: Dosya transferi için.
+
+---
+
+![img](https://github.com/deryaxacar/42-inception/blob/main/img/inceptionimg.PNG)
 
 ---
 
