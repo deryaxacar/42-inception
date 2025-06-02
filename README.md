@@ -127,6 +127,8 @@ Docker volume, container’lar ile host sistemi arasında veri paylaşımı sağ
 Nginx, açık kaynaklı, yüksek performanslı bir web sunucusudur. Web isteklerini karşılamak, statik dosyaları sunmak ve ters proxy (reverse proxy) olarak çalışmak gibi görevleri vardır. Projede gelen HTTP isteklerini karşılayıp diğer container’lara yönlendirmek için kullanılır.
 
 ---
+![img](https://github.com/deryaxacar/42-inception/blob/main/img/inceptionimg.PNG)
+---
 
 ## Kullanılan Servisler
 
