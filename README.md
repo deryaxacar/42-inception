@@ -35,6 +35,13 @@ Bu proje, Docker kullanarak mikroservis mimarisine uygun, izole ve güvenli bir 
 - Daha güvenlidir.
 - Her VM'de ayrı işletim sistemi çalışabilir.
 
+Hypervisor, fiziksel donanım ile sanal makineler arasında bir köprü görevi görür. Sanal makinelerin (VM) her biri, kendi işletim sistemine ve uygulamalarına sahipmiş gibi çalışır. Ancak aslında bu sistemler, hypervisor tarafından paylaştırılan kaynaklarla (CPU, RAM, disk vb.) çalışır.
+
+
+Not: Sanal makina üzerinde çalışan işletim sistemi arkaplanda çalışan hipervisordan haberdar değildir.
+Sanal makina fiziksel bir makina gibi davranır.
+
+
 ---
 
 ## 🐳 Docker Nedir?
