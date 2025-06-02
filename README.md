@@ -46,6 +46,14 @@ Hypervisor, fiziksel donanım ile sanal makineler arasında bir köprü görevi 
 Not: Sanal makina üzerinde çalışan işletim sistemi arkaplanda çalışan hipervisordan haberdar değildir.
 Sanal makina fiziksel bir makina gibi davranır.
 
+---
+
+## 📦 Konteyner Mimari (Container Architecture) Nedir?
+
+
+---
+
+![img](https://github.com/deryaxacar/42-inception/blob/main/img/konteyner-mimarisi.PNG)
 
 ---
 
