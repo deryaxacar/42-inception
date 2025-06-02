@@ -83,10 +83,7 @@ Bu işlem izolasyonu sayesinde aynı işletim sistemi üzerinde birbirinden bağ
 
 gibi temel işleri kernel yapar.
 
----
 ![img](https://github.com/deryaxacar/42-inception/blob/main/img/kernel.png)
-
----
 
 **örnek:**
 
