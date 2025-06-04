@@ -112,7 +112,7 @@ Docker, uygulamaları ve bu uygulamaların bağımlılıklarını, işletim sist
 
 Docker image (imaj), bir container'ın çalıştırılabilmesi için gerekli olan tüm dosya sistemini, bağımlılıkları ve yapılandırmaları barındıran bir şablondur. Her image, katmanlı bir yapıdadır ve bu image'lardan container'lar oluşturulur.
 
-![img](https://github.com/deryaxacar/42-inception/blob/main/img/docker-image.png)
+![img](https://github.com/deryaxacar/42-inception/blob/main/img/docker-image.PNG)
 
 ---
 
