@@ -142,3 +142,6 @@ Inception projesinde aşağıdaki servisler kurulup yapılandırılmıştır:
 
 ---
 
+<div align="center">
+  <b>2025 | Created by Derya ACAR</b>
+</div>
