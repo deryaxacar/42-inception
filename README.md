@@ -19,12 +19,10 @@ Bu proje, Docker kullanarak mikroservis mimarisine uygun, izole ve güvenli bir 
 - [Volume Nedir?](#volume-nedir)
 - [Nginx Nedir?](#nginx-nedir)
 - [Kullanılan Servisler](#kullanılan-servisler)
-- [Kurulum ve Kullanım](#kurulum-ve-kullanım)
-- [Proje Yapısı](#proje-yapısı)
 
 ---
 
-## 🖥️ Sanal Mimari (Virtual Machine Architecture) Nedir?
+## <a name="sanal-mimari-nedir"></a>🖥️ Sanal Mimari (Virtual Machine Architecture) Nedir?
 
 - Fiziksel donanım üzerinde çalışan bir hypervisor yardımıyla, birden fazla sanal makine (VM) oluşturulur.
 - Her sanal makine kendi işletim sistemi ile birlikte çalışır.
@@ -49,7 +47,7 @@ Sanal makina fiziksel bir makina gibi davranır.
 
 ---
 
-## 📦 Konteyner Mimari (Container Architecture) Nedir?
+## <a name="konteyner-mimari-nedir"></a>📦 Konteyner Mimari (Container Architecture) Nedir?
 
 - Uygulamalar, aynı işletim sistemini paylaşan, ancak birbirinden izole çalışan konteynerler içinde çalışır.
 - İzolasyon, işletim sistemi çekirdeği (kernel) düzeyinde sağlanır (namespaces, cgroups).
@@ -94,7 +92,7 @@ gibi temel işleri kernel yapar.
 
 ---
 
-## 🐳 Docker Nedir?
+## <a name="docker-nedir"></a>🐳 Docker Nedir?
 
 Docker, uygulamaları ve bu uygulamaların bağımlılıklarını, işletim sisteminden bağımsız bir şekilde çalıştırılabilir hale getiren, açık kaynaklı bir containerization (kapsayıcılama) platformudur. Temel amacı, bir yazılımın geliştirildiği ortamda nasıl çalışıyorsa, aynı şekilde başka bir ortamda da sorunsuz çalışmasını sağlamaktır.
 
@@ -140,10 +138,3 @@ Inception projesinde aşağıdaki servisler kurulup yapılandırılmıştır:
 
 ---
 
-## Kurulum ve Kullanım
-
-1. `.env` dosyasını oluşturun ve gerekli ortam değişkenlerini doldurun.
-2. Aşağıdaki komutla tüm servisleri başlatın:
-
-```bash
-docker-compose up --build
