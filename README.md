@@ -19,6 +19,7 @@ Bu proje, Docker kullanarak mikroservis mimarisine uygun, izole ve güvenli bir 
 - [Volume Nedir?](#volume-nedir)
 - [Nginx Nedir?](#nginx-nedir)
 - [Kullanılan Servisler](#kullanılan-servisler)
+- [Proje Kapsamı](#proje-kapsami)
 
 ---
 
@@ -120,6 +121,9 @@ Docker image (imaj), bir container'ın çalıştırılabilmesi için gerekli ola
 
 Docker volume, container’lar ile host sistemi arasında veri paylaşımı sağlamak için kullanılır. Container silinse bile volume’lar kalıcıdır. Bu sayede veri kaybı olmadan işlemler devam eder. Örneğin bir veritabanının verileri volume içerisinde saklanarak container yeniden başlatıldığında kaybolmaz.
 
+**kısaca:**
+![img](https://github.com/deryaxacar/42-inception/blob/main/img/dockerimg.PNG)
+
 ---
 
 ## Nginx Nedir?
@@ -137,6 +141,10 @@ Inception projesinde aşağıdaki servisler kurulup yapılandırılmıştır:
 - **MariaDB**: MySQL uyumlu veritabanı sunucusu.
 
 ---
+
+## Proje Kapsamı
+
+`Inception` projesinde, bizden `docker-compose.yml` dosyası ile yönetilen üç konteyner oluşturmamız bekleniyor: `MariaDB`, `WordPress` ve `NGINX`. Her bir konteyner, kendine ait bir `Dockerfile` kullanılarak inşa edilecek (`build` edilecek). Projenin amacı, bu servislerin birbirleriyle entegre çalıştığı, ayağa kalktığında tamamen işlevsel bir web uygulaması ortamı oluşturmaktır.
 
 ![img](https://github.com/deryaxacar/42-inception/blob/main/img/inceptionimg.PNG)
 
