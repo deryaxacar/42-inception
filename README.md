@@ -17,7 +17,6 @@ Bu proje, Docker kullanarak mikroservis mimarisine uygun, izole ve güvenli bir 
 - [Docker Nedir?](#docker-nedir)
 - [Image Nedir?](#image-nedir)
 - [Volume Nedir?](#volume-nedir)
-- [Nginx Nedir?](#nginx-nedir)
 - [Kullanılan Servisler](#kullanılan-servisler)
 - [Proje Kapsamı](#proje-kapsami)
 
@@ -126,19 +125,13 @@ Docker volume, container’lar ile host sistemi arasında veri paylaşımı sağ
 
 ---
 
-## Nginx Nedir?
-
-Nginx, açık kaynaklı, yüksek performanslı bir web sunucusudur. Web isteklerini karşılamak, statik dosyaları sunmak ve ters proxy (reverse proxy) olarak çalışmak gibi görevleri vardır. Projede gelen HTTP isteklerini karşılayıp diğer container’lara yönlendirmek için kullanılır.
-
----
-
 ## Kullanılan Servisler
 
 Inception projesinde aşağıdaki servisler kurulup yapılandırılmıştır:
 
-- **Nginx**: Reverse proxy olarak çalışır.
-- **WordPress**: İçerik yönetim sistemi.
-- **MariaDB**: MySQL uyumlu veritabanı sunucusu.
+- **MariaDB**: WordPress için veritabanı hizmeti sağlar. Kalıcı veri için volume kullanılmalıdır.
+- **WordPress**: Dinamik içerik yönetim sistemi olarak çalışır ve MariaDB ile bağlantılıdır.
+- **Nginx**: Reverse proxy olarak yapılandırılır ve HTTPS desteği sağlamak için SSL sertifikalarıyla birlikte çalışır.
 
 ---
 
