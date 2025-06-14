@@ -18,7 +18,7 @@ Bu proje, Docker kullanarak mikroservis mimarisine uygun, izole ve güvenli bir 
 - [Image Nedir?](#image-nedir)
 - [Volume Nedir?](#volume-nedir)
 - [Kullanılan Servisler](#kullanılan-servisler)
-- [Proje Kapsamı](#proje-kapsami)
+- [Proje Kapsamı](#proje-kapsamı)
 
 ---
 
